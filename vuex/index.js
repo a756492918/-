@@ -16,7 +16,7 @@ export default new Vuex.Store({     //暴露vuex
 })
 
 // 在main.js中通过该方法引入
-import store from './(vuex的路劲)'
+import store from './(vuex的路径)'
 
 // 在main.js中挂在store 这个vuex 
 
