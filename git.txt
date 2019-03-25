@@ -1,0 +1,45 @@
+第一次安装使用github的先执行以下命令 
+
+
+git config --global user.name "自己的用户名"
+
+git config --global user.email "自己的邮箱"
+
+
+命名式  
+
+git init    创建本仓库 
+
+git status  查看文件的状态  红色表示没有添加监听、绿色的表示已经添加了监听
+
+git add 文件名称   把指定的文件添加到本地仓库  这个时候文件是绿色的
+
+git add .   把所有的文件添加到本地仓库    这个时候文件是绿色的
+
+git commit -m 'first'   把监听的文件添加到本地仓库   first 这个是描述随便写的 
+
+git log   查看日志    
+
+git remote add origin (远程git路径)   连接远程路径 
+
+如果连接出现这个错误  提示出错信息：fatal: remote origin already exists.  
+
+git remote rm origin 删除连接   
+
+git push -u origin master  添加到主分支 （好比如说把本地的仓库里的东西放到远程仓库的某个房间）
+
+傻瓜式 
+
+1. 在github上面新建一个仓库   
+
+2. 在自己的桌面上运行克隆命令  
+
+  git clone https://github.com/fly-sy/sg.git  
+
+3. 在克隆下来的文件夹中新建你的文件  
+
+4. 把克隆下来的项目拉到vscode 中    
+
+5. 打钩
+
+6. 推送  
