@@ -1,0 +1,19 @@
+	"vue": {
+		"prefix": "vue",
+		"body": [
+			"<template>",
+			"\t$0",
+			"</template>",
+			"",
+			"<script>",
+			"export default {",
+			"  data: () => ({})",
+			"};",
+			"</script>",
+			"",
+			"<style  scoped>",
+			"",
+			"</style>"
+		],
+		"description": "tab vue template"
+	}
